@@ -48,6 +48,7 @@ ui <- dashboardPage(
   ),
   dashboardBody(
     tags$head(
+      tags$link(rel = "shortcut icon", href = "favicon.ico"),
       tags$style(HTML("
         .skin-blue .main-header .logo {
           width: 100% !important;
